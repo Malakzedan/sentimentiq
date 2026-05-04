@@ -57,7 +57,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
 
-# SAVE TEST DATA 
+# SAVE TEST DATA
 pickle.dump(X_test, open(os.path.join(BASE_DIR, "X_test.pkl"), "wb"))
 pickle.dump(y_test, open(os.path.join(BASE_DIR, "y_test.pkl"), "wb"))
 
